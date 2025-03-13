@@ -103,8 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1812087439410202566}
   - component: {fileID: 4452668506949720063}
-  - component: {fileID: 4954963209798578080}
-  - component: {fileID: 9189598577750438412}
+  - component: {fileID: 7376535935661854346}
   m_Layer: 0
   m_Name: RandomBox
   m_TagString: Untagged
@@ -180,7 +179,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4954963209798578080
+--- !u!61 &7376535935661854346
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,18 +224,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.125, y: 1.125}
   m_EdgeRadius: 0
---- !u!114 &9189598577750438412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4142033570646498681}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b47ce439f2c656498865737c54c22b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CoinPrefab: {fileID: 5844132511919354722, guid: 73f64a3a835c17b49abf234ce806df3a, type: 3}
-  isActivate: 1
-  unActivateBoxSpriteRenderer: {fileID: 1262994337, guid: 9da554286db2391408240ebbe5287586, type: 3}
