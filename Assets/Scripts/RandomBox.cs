@@ -8,6 +8,7 @@ public class RandomBox : MonoBehaviour
 
     public bool isActivate = true;
 
+    
     SpriteRenderer _sr;
     public Sprite unActivateBoxSpriteRenderer;
 
@@ -20,15 +21,19 @@ public class RandomBox : MonoBehaviour
     {
         if (isActivate)
         {
+            
 
             isActivate = false;
 
             Debug.Log("랜덤박스와 충돌 했어요.");
 
+            
 
             Instantiate(CoinPrefab, transform.position, Quaternion.identity);
 
             _sr.sprite = unActivateBoxSpriteRenderer;
+
+            SoundManager.Instance?.PlaySFX("Coin");
         }
     }
 
