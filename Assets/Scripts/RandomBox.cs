@@ -8,7 +8,7 @@ public class RandomBox : MonoBehaviour
 
     public bool isActivate = true;
 
-    
+
     SpriteRenderer _sr;
     public Sprite unActivateBoxSpriteRenderer;
 
